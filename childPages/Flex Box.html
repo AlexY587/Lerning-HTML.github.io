@@ -6,30 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Alex Yang">
     <meta name="description" content="simple website made to help Alex learn html">
-    <meta name="keywords" content="boilerplate, starter code, HTML, learning, divisions">
+    <meta name="keywords" content="boilerplate, starter code, HTML, learning, flex-box">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 
-    <title>Index with DIVs</title>
+    <title>Child Template Page</title>
 
     <style>
-      /* this is a style comment */
-      div {border: thin dotted red;}
+      div {border: thin line black;}
+      * {box-sizing: border-box;}
+      .header {
+        border: 1px solid red;
+        padding: 15px;
+      }
+      .menu {
+        border: 1px solid red;
+        width: 25%;
+        float: left;
+        padding: 15px;
+      }
+      .main {
+        float: left;
+        border: 1px solid red;
+        width: 50%;
+        padding: 15px;
+      }
+      .aside {
+        border: 1px solid red;
+        width: 50%;
+        float: left;
+        padding: 15px;
+      }
     </style>
+
     <noscript>Running JavaScript is not nescessary in this HTML Page ... FYI your feature to execute scripts is turned off</noscript>
 </head>
 <body>
-  <div><header>This an index with divs</header></div>
-  <div>
- <div><nav>
+  <header>This is the Child Template Page</header>
+  <nav>
     Navigation
 
-</nav></div> 
+</nav>
   <aside>This is the aside space</aside> 
   <section><article>This is a section and article</article></section>
   <section><article><p>This is a paragraph tag inside a section article</p></article></section>
-  </div>
 </body>
 <footer>
     <blockquote cite="https://www.thoughtco.com/best-confucius-quotes-2833291">
